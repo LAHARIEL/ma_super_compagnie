@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    color:grey;
+    
+}
+nav{
+    justify-content:space-between;
+    height: 10vh;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+    transition: color 0.9s;
+}
+
+a:hover{
+    color:black;
+}
+
+li{
+    list-style-type: none;
+    margin-right : 15px;
+}
+
+div.profil{
+    width: 25%;
+    margin-top: 30px;
+}
+h2{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(37, 33, 33)
+}
+
+footer{
+    background-color: rgb(241, 241, 241);
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.logo{
+    letter-spacing: 0.5rem;
+    padding-left: 10px;
+}
+
+.header{
+    height: 50vh;
+    font-size: 45px;
+    color:white;
+    background: url(../img/building.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondateur{
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.button{
+    margin-top:10px;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: lightgrey;
+    transition: background-color 0.5s, color 0.5s;
+}
+.button:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+    color:white;
+}
+
+
+
